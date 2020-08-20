@@ -1,0 +1,8 @@
+.env
+.json
+/node_modules
+/.vscode
+.vscode
+.dll
+.dat
+.exe
