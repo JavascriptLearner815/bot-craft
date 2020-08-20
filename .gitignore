@@ -5,3 +5,5 @@
 .dll
 .dat
 .exe
+.eslint
+.eslintrc.json
