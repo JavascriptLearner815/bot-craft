@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JavascriptLearner815/bot-craft/issues"
   },
-  "homepage": "https://github.com/JavascriptLearner815/bot-craft#readme"
+  "homepage": "https://github.com/JavascriptLearner815/bot-craft#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
 }
