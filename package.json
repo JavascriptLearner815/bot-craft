@@ -1,0 +1,19 @@
+{
+  "name": "bot-craft",
+  "version": "1.0.0",
+  "description": "Craft your way to advance through your virtual world with many amazing discoveries!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavascriptLearner815/bot-craft.git"
+  },
+  "author": "Dean Summer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavascriptLearner815/bot-craft/issues"
+  },
+  "homepage": "https://github.com/JavascriptLearner815/bot-craft#readme"
+}
