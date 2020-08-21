@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const { prefix, token } = require('./config.json'); // config.json file includes token, so not including in repo.
+const { prefix, token, client, secret } = require('./config.json'); // config.json file includes token, so not including in repo.
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
