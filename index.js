@@ -22,6 +22,10 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
+    if (!message.guild.me.hasPermission('VIEW_CHANNEL') || !message.guild.me.hasPermission('SEND_MESSAGES')) {
+        console.log(`I don't have the permissions to view channels or send messages in ${message.guild.nameAcronym} (${message.guild.name}).`);
+    }
+
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).trim().split(' ');
